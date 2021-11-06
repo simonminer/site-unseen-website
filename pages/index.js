@@ -21,7 +21,7 @@ export default function Home() {
         </p>
         
         <p className={styles.description}>
-          Based on <a href="https://inclusiville.com/">Inclusiville</a>, the <a href="https://www.deque.com/blog/deque-hosts-first-virtual-axe-hackathon/">award-winning</a> empathy-building game for web accessibility, Site Unseen hides all visible elements on a web page and provides you with a simulated screen reader to explore its contents.  Use keyboard commands to move through the elements on a page, viewing the name, role, and value of each one as it comes into focus and interacting with it using only your keyboard.
+          Based on <a href="https://inclusiville.com/">Inclusiville</a>, the <a href="https://www.deque.com/blog/deque-hosts-first-virtual-axe-hackathon/">award-winning</a> empathy-building game for web accessibility, Site Unseen hides all visible elements on a web page and provides you with a simulated screen reader to explore its contents.  Use keyboard commands to move through the elements on a page, viewing the name, role, and value of each one as it comes into focus and interact with it using only your keyboard.
         </p>
 
         <p className={styles.description}>
