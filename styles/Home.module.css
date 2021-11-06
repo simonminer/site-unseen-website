@@ -1,13 +1,11 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: auto;
+  max-width: 800px;
 }
 
 .main {
@@ -17,6 +15,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .footer {
@@ -54,7 +54,7 @@
 
 .title,
 .description {
-  text-align: center;
+  text-align: justify;
 }
 
 .description {
