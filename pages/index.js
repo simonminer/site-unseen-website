@@ -30,7 +30,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          &copy; 2021 Site Unseen
+          &copy; {`${new Date().getFullYear()}`} Site Unseen
       </footer>
     </div>
   )
