@@ -31,7 +31,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          &copy; {`${new Date().getFullYear()}`} Site Unseen
+          &copy; {`${new Date().getFullYear()}`} &nbsp; <Link href="/">Site Unseen</Link> &nbsp; | &nbsp;
+          <Link href="./privacy">Privacy Policy</Link>
       </footer>
     </div>
   )
