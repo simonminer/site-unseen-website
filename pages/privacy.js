@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Site.Unseen.module.css'
 
-export default function Home() {
+export default function Privacy() {
   return (
     <div className={styles.container}>
       <Head>
