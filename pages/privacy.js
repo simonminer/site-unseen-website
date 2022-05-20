@@ -23,11 +23,6 @@ export default function Home() {
           <Link href="https://siteunseen.dev">siteunseen.dev</Link> uses Google Analytics to track website usage and visitor traffic anonymously.
         </p>
       </main>
-
-      <footer className={styles.footer}>
-          &copy; {`${new Date().getFullYear()}`} &nbsp; <Link href="/">Site Unseen</Link> &nbsp; | &nbsp;
-          <Link href="./privacy">Privacy Policy</Link>
-      </footer>
     </div>
   )
 }
