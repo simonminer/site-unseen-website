@@ -1,9 +1,9 @@
 .container {
-  min-height: 75vh;
+  min-height: 85vh;
   padding: 0 0.5rem;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 85vh;
   margin: auto;
   max-width: 800px;
 }
@@ -40,6 +40,10 @@
   line-height: 1.5;
   font-size: 1.5rem;
   text-align: left;
+}
+
+.mainidea {
+  font-size: 1.7rem;
 }
 
 .code {
@@ -93,6 +97,15 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.cta {
+  background-color: #004AAD;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin: 1rem 0;
 }
 
 @media (max-width: 600px) {

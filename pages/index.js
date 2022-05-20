@@ -15,17 +15,23 @@ export default function Home() {
           Site Unseen
         </h1>
 
+        <p className={styles.description, styles.mainidea}>
+          A tool to help you understand how blind people use the web.
+        </p>
+
+        <Link href="https://chrome.google.com/webstore/detail/site-unseen/aflfgnngnnhdoffmmpmakkdflfedldlh">
+          <button className={styles.cta}>Get the Extension</button>
+        </Link>
+
         <p className={styles.description}>
-          Site Unseen is an up and coming JavaScript library, browser extension, and web app that allows you to interact with any web page in the same way a person with blindness would experience it.
+          People who are blind browse the web very differently than sighted users. Site Unseen helps you appreciate how blind users interact with web pages by obscuring the page and providing a screen reader emulator to explore its content. Use this browser extension to foster empathy in yourself and your community for those with vision disabilities, build the case for accessible web design, and test for web accessibility issues.
+
         </p>
         
         <p className={styles.description}>
-          Based on <Link href="https://inclusiville.com/">Inclusiville</Link>, the <Link href="https://www.deque.com/blog/deque-hosts-first-virtual-axe-hackathon/">award-winning</Link> empathy-building game for web accessibility, Site Unseen hides all visible elements on a web page and provides you with a simulated screen reader to explore its contents.  Use keyboard commands to move through the elements on a page, viewing the name, role, and value of each one as it comes into focus and interacting with it using only your keyboard.
+          Site Unseen is based on <Link href="https://inclusiville.com/">Inclusiville</Link>, the <Link href="https://www.deque.com/blog/deque-hosts-first-virtual-axe-hackathon/">award-winning</Link> empathy-building game for web accessibility, and powered by the <Link href="https://github.com/dequelabs/axe-core">axe-core library</Link>.
         </p>
 
-        <p className={styles.description}>
-          <Link href="https://github.com/simonminer/site-unseen">Check out our Github repository</Link> and stay tuned.
-        </p>
       </main>
     </div>
   )
