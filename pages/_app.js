@@ -1,5 +1,6 @@
 import Script from 'next/script'
 import Head from 'next/head'
+import Image from 'next/image'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -27,6 +28,9 @@ return (
         `}
       </Script>
 
+      <heading>
+        <Image src="/site-unseen-logo.png" width="300" height="300" alt="Site Unseen Logo"/>
+      </heading>
       <Component {...pageProps} />
     </>
   );

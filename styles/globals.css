@@ -16,3 +16,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+heading {
+  padding-top: 5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
