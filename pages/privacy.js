@@ -20,7 +20,7 @@ export default function Privacy() {
         </p>
 
         <p className={styles.description}>
-          <Link href="https://siteunseen.dev">siteunseen.dev</Link> uses Google Analytics to track website usage and visitor traffic anonymously.
+          This website uses Google Analytics to track website usage and visitor traffic anonymously.
         </p>
       </main>
     </div>
