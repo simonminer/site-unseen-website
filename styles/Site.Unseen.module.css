@@ -108,6 +108,37 @@
   margin: 1rem 0;
 }
 
+#commands {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#shortcutKeysHeading {
+    width: 30%;
+}
+
+#commands th,
+#commands td {
+    padding: 1rem;
+}
+
+#commands th {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+}
+
+.shortcutKeys {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 2rem;
+}
+
+.shortcutDescription {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
