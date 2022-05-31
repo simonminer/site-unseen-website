@@ -1,9 +1,7 @@
 .container {
-  min-height: 85vh;
   padding: 0 0.5rem;
   justify-content: center;
   align-items: center;
-  height: 85vh;
   margin: auto;
   max-width: 800px;
 }

@@ -36,8 +36,11 @@ return (
       <Component {...pageProps} />
 
       <footer>
-          &copy; {`${new Date().getFullYear()}`} &nbsp; <Link href="/">Site Unseen</Link> &nbsp; | &nbsp;
+          &copy; {`${new Date().getFullYear()}`} &nbsp; <Link href="/">Site Unseen</Link>
+           &nbsp; | &nbsp;
           <Link href="/privacy">Privacy Policy</Link>
+           &nbsp; | &nbsp;
+          <Link href="/support">Support</Link>
       </footer>
 
     </>
